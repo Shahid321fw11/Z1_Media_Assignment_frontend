@@ -12,6 +12,7 @@ import { Paper } from '@mui/material';
 import { Box } from '@mui/system';
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import Bargraph from './Bargraph';
 
 
 
@@ -174,6 +175,10 @@ const Body = () => {
                         </CardContent>
                     </Card>
                 </Box>
+
+                {/* <Box style={{}}> */}
+                <Bargraph />
+                {/* </Box> */}
 
             </Paper>
         </div>
